@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wgh@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    text-align: center;
+}
+
+main img{
+    width: 150px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+h2{
+    color: #FF5656;
+}
+
+label, select{
+    display: block;
+}
+
+input, textarea{
+    margin-bottom: 15px;
+}
+
+select{
+    margin: 0px auto 15px auto;
+}
+
+.metodoPagamento{
+    display: inline-block;
+}
+
+.opcionais{
+    display: inline-block;
+}
+
+.metodoPagamento label, .opcionais label{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.container{
+    padding: 0 35%;
+}
+
+main img{
+    width: 150px;
+}
+
+fieldset{
+    border: none;
+}

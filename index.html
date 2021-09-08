@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aula 14</title>
+</head>
+
+<body>
+    <main class="container">
+        <section>
+            <img src="https://brigadeirobistro.com.br/wp-content/uploads/2020/11/cropped-brigadeiro-gourmet-logo.png"
+                alt="Logo do iFome">
+            <h2>Candy shop Candy! ❤</h2>
+            <br><p>Somos uma loja de doces lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto quo, natus eligendi, expedita, molestiae temporibus non fuga quam adipisci mollitia unde perferendis eius. Possimus veritatis sint voluptas odit ullam.
+            </p><br>
+            <h3>Faça seu pedido:</h3><br>
+        </section>
+        <fieldset>
+            <legend>Doces Simples</legend> 
+        <br>               
+        <div class="opcionais">
+            <input type="checkbox" name="Brigadeiro" id="Brigadeiro">
+            <label for="Brigadeiro">Brigadeiro</label>
+            <input type="checkbox" name="Brigadeiro Branco" id="Brigadeiro Branco">
+            <label for="Brigadeiro Branco">Brigadeiro Branco</label>
+            <input type="checkbox" name="Brigadeiro Cereal" id="Brigadeiro Cereal">
+            <label for="Brigadeiro Cereal">Brigadeiro Cereal</label>
+            <input type="checkbox" name="Beijinho" id="Beijinho">
+            <label for="Beijinho">Beijinho</label>
+            <input type="checkbox" name="Cajuzinho" id="Cajuzinho">
+            <label for="Cajuzinho">Cajuzinho</label>
+
+
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Doces Requintados</legend> 
+    <br>               
+    <div class="opcionais">
+        <input type="checkbox" name="Ouriço Amendoim" id="Ouriço Amendoim">
+        <label for="Ouriço Amendoim">Ouriço Amendoim</label>
+        <input type="checkbox" name="Brigadeiro Brullê" id="Brigadeiro Brullê">
+        <label for="Brigadeiro Brullê">Brigadeiro Brullê</label>
+        <input type="checkbox" name="Olho de Sogra Cristal" id="Olho de Sogra Cristal">
+        <label for="Olho de Sogra Cristal">Olho de Sogra Cristal</label>
+        <input type="checkbox" name="Uva Cristal" id="Uva Cristal">
+        <label for="Uva Cristal">Uva Cristal</label>
+        <input type="checkbox" name="Cabelo de Anjo" id="Cabelo de Anjo">
+        <label for="Cabelo de Anjo">Cabelo de Anjo</label>
+        <input type="checkbox" name="Ninho de Ovos" id="Ninho de Ovos">
+        <label for="Ninho de Ovos">Ninho de Ovos</label>
+    </div>
+</fieldset>
+<br>
+        <fieldset>
+                <legend>Método de Pagamento</legend>
+            <div class="metodoPagamento">
+                <input type="radio" name="pagamento" id="dinheiro" checked>
+                <label for="dinheiro">Dinheiro</label>
+                <input type="radio" name="pagamento" id="crédito">
+                <label for="credito">Crédito</label>
+                <input type="radio" name="pagamento" id="debito">
+                <label for="debito">Débito</label>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Data e Horário do Evento:</legend>
+            <input type="datetime-local" name="agendamento" id="agendamento">
+        </fieldset>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <form action="#" method="POST">
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" placeholder="Insira seu e-mail" required>
+            <label for="Nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+            <label for="endereco">Endereço de entrega: </label>
+            <textarea name="endereco" id="endereco" cols="20" rows="5">Insira aqui seu endereço.</textarea>
+            <fieldset>
+                <legend>Será entregue quando?</legend>
+                <select name="entrega" id="entrega">
+                <optgroup label="Entrega">
+                    <option value="">Selecione uma opção</option>
+                    <option value="acaraje">Na data e local do evento.</option>
+                    <option value="acaraje">Na data do evento, meu endereço residencial.</option>
+                </optgroup>
+                </select>
+            </fieldset>
+            <label for="observacoes">Observações: </label>
+            <textarea name="observacoes" id="observacoes" cols="20" rows="3">Insira aqui pedidos especiais.</textarea>
+        </fieldset>
+            <button type="submit">Pedir</button>
+            <button type="reset">Cancelar</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
